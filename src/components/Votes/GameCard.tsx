@@ -7,7 +7,7 @@ import { gameInterface } from '../../interfaces/gameInterface';
 const sendingVote = (id:number) =>{
     Alert.alert(
         "Vote Send",
-        "thaks for helping to vote the game of the year",
+        "thanks for helping to vote the game of the year",
         [
             {text:'OK', onPress:()=> clientSendingVotes(id)}
         ]

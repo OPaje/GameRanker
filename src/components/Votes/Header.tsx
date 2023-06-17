@@ -6,7 +6,7 @@ export function Header(){
     return(
         <View style={styles.header}>
             <View>
-                <Text style={styles.label}>GAME OF YEAR</Text>
+                <Text style={styles.label}>GAMERANKER</Text>
             </View>
             <View>
                 <Image source={trophy} style={styles.logo}/>
